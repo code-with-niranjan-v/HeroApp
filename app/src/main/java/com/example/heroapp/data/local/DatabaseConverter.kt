@@ -3,7 +3,7 @@ package com.example.heroapp.data.local
 import androidx.room.TypeConverter
 
 class DatabaseConverter {
-    
+
     private val separater = ","
 
     @TypeConverter
@@ -20,5 +20,5 @@ class DatabaseConverter {
     fun stringToListOfString(string: String):List<String>{
         return string.split(separater)
     }
-    
+
 }

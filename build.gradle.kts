@@ -13,7 +13,9 @@ buildscript {
     }
     dependencies {
         val kotlin_version = "1.5.31"
-        classpath("com.google.dagger:hilt-android-gradle-plugin:2.38.1")
+//        classpath("com.google.dagger:hilt-android-gradle-plugin:2.38.1")
+//        classpath("com.android.tools.build:gradle:7.0.3")
+//        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
         classpath("org.jetbrains.kotlin:kotlin-serialization:$kotlin_version")
     }
 }

@@ -4,6 +4,7 @@ import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import com.example.heroapp.data.local.dao.HeroDao
+import com.example.heroapp.data.local.dao.HeroRemoteKeyDao
 import com.example.heroapp.domain.model.Hero
 import com.example.heroapp.domain.model.HeroRemoteKey
 
@@ -12,5 +13,5 @@ import com.example.heroapp.domain.model.HeroRemoteKey
 abstract class HeroDatabase :RoomDatabase(){
 
     abstract fun getDao():HeroDao
-    abstract fun getRemoteKeyDao():HeroRemoteKey
+    abstract fun getRemoteKeyDao():HeroRemoteKeyDao
 }
